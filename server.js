@@ -3,7 +3,7 @@ const app = express();
 const mongoose = require('mongoose');
 
 // Connect to MongoDB database
-mongoose.connect('mongodb://localhost:27017/my-database', { useNewUrlParser: true, useUnifiedTopology: true });
+mongoose.connect('mongodb://localhost:27017/courses', { useNewUrlParser: true, useUnifiedTopology: true });
 
 // Define a route for your API
 app.get('/api/data', (req, res) => {

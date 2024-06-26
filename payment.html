@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" class="css" />
+    <title>Enroll in Our Courses</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Enroll in Our Courses</h1>
+            <p>Choose your course and start learning today!</p>
+        </div>
+        <div class="course-selection">
+            <h2>Select Your Course</h2>
+            <ul>
+                <li>
+                    <input type="radio" id="course-1" name="course" value="Python for Beginners" />
+                    <label for="course-1">Python for Beginners</label>
+                </li>
+                <li>
+                    <input type="radio" id="course-2" name="course" value="Data Science with R" />
+                    <label for="course-2">Data Science with R</label>
+                </li>
+                <li>
+                    <input type="radio" id="course-3" name="course" value="Web Development with HTML/CSS" />
+                    <label for="course-3">Web Development with HTML/CSS</label>
+                </li>
+            </ul>
+        </div>
+        <div class="payment-details">
+            <h2>Payment Details</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" />
+                <br />
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" />
+                <br />
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" />
+                <br />
+                <label for="card-number">Card Number:</label>
+                <input type="text" id="card-number" name="card-number" placeholder="Enter your card number" />
+                <br />
+                <label for="expiration-date">Expiration Date:</label>
+                <input type="text" id="expiration-date" name="expiration-date" placeholder="MM/YY" />
+                <br />
+                <label for="cvv">CVV:</label>
+                <input type="text" id="cvv" name="cvv" placeholder="Enter your CVV" />
+                <br />
+                <button type="submit" class="pay-now-btn">Enroll Now</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
